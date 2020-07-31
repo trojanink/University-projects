@@ -1,6 +1,5 @@
 %demonstration for convergence in characteristic function of a large sum to normal
 %distribution (Central limit theorem)
-%G. Paschos
 clear all;
 
 %number of retrials
