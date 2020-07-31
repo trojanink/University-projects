@@ -3,30 +3,36 @@
 Sept 2014 - Jan 2015
 
 Use Data Structures, Lists, Memory(Malloc-Realloc), Structs, Recursion.
+
 In every folder there is a more detailed description of each project.(Greek langueage)
 
-Περιγραφή
+Abstract
 
-Υλοποίηση ενός παιχνιδιού όπου ο υπολογιστής διαλέγει δύο λέξεις (ίδιου μήκους) από το λεξικό, κι ο παίκτης
-προσπαθεί να βρει ένα μονοπάτι από τη μία στην άλλη έτσι ώστε σε κάθε βήμα να αλλάζει ακριβώς ένα γράμμα,
-η νέα λέξη κάθε βήματος να ανήκει και αυτή στο λεξικό, και να έχει βρεθεί η λέξη-προορισμός σε περιορισμένο
-αριθμό βημάτων.
-Στην αρχή του παιχνιδιού ο παίκτης προσδιορίζει πόσα γράμματα επιθυμεί να έχουν οι λέξεις που θα διαλέξει ο
-υπολογιστής, σε πόσα βήματα θα πρέπει να έχει βρεθεί το μονοπάτι καθώς και το όνομα του αρχείου που
-περιέχει το λεξικό.
-Αφού το πρόγραμμα επιλέξει τυχαία τις δύο λέξεις του επιθυμητού μεγέθους (αν υπάρχουν), εμφανίζει στον
-παίκτη όλες τις λέξεις του λεξικού που απέχουν κατά ένα γράμμα από τη λέξη αφετηρία. Ο παίκτης διαλέγει μια
-από αυτές. Στο επόμενο βήμα, το πρόγραμμα εμφανίζει στον παίκτη όλες τις λέξεις του λεξικού που απέχουν
-κατά ένα γράμμα από την τελευταία λέξη που επιλέχθηκε. Στις επιλογές μπορεί να περιλαμβάνονται και λέξεις
-που έχουν ήδη επιλεγεί, και είναι ήδη στο μονοπάτι.
-Αν βρεθεί η λέξη προορισμός πριν εξαντληθούν τα επιτρεπτά βήματα, εκτυπώνεται μήνυμα επιτυχίας
-Αν εξαντληθούν τα βήματα πριν βρεθεί η λέξη προορισμός, το πρόγραμμα εκτυπώνει μήνυμα αποτυχίας.
-Προαιρετικά, μπορείτε να προσθέσετε την παρακάτω λειτουργικότητα σε αυτό το σημείο: αν ο παίκτης δεν έχει
-βρει τη λέξη προορισμό, τότε το πρόγραμμα ψάχνει μόνο του αναδρομικά (με χρήση backtracking) να δει αν
-υπάρχει λύση, κι αν ναι, την εμφανίζει στην οθόνη. Σημείωση: Αν προσθέσετε αυτή την επιπλέον
-λειτουργικότητα θα χρειαστεί επιπλέον πεδίο στο struct για τις λίστες σας: Για να λειτουργήσει σωστά η
-αναδρομή πρέπει να μαρκάρονται οι λέξεις που έχουν ήδη ελεγχθεί για να μην ξαναμπούν στο μονοπάτι και
-δημιουργηθεί "κύκλος". Αρκεί μια boolean μεταβλητή για αυτό.
-Σε κάθε περίπτωση, το πρόγραμμα ρωτά τον παίκτη αν θέλει να ξαναπαίξει. Αν ναι, διαλέγει δύο νέες λέξεις κι
-επαναλαμβάνει το παιχνίδι (με ίδιο ή διαφορετικό μήκος λέξεων / πλήθος βημάτων, ανάλογα με την προτίμησή
-σας), διαφορετικά τερματίζει.
+
+Implementation of a game where the computer chooses two words (of the same length) from the dictionary, and the player
+tries to find a path from one to the other so that at each step exactly one letter changes,
+the new word of each step also belongs to the dictionary, and the target word has been found in a limited
+number of steps.
+At the beginning of the game the player determines how many letters he wants to have the words that the player will choose
+computer, in how many steps the path should be found as well as the name of the file that
+contains the dictionary.
+
+After the program randomly selects the two words of the desired size (if any), it displays in
+player all words in the dictionary that are one letter away from the word starting point. The player chooses one
+From these. In the next step, the program shows the player all the words in the dictionary that are far away
+by one letter from the last word selected. Options may include words
+which have already been selected, and are already on the path.
+If the word destination is found before the allowed steps are exhausted, a success message is printed
+If the steps are exhausted before the word destination is found, the program prints a failure message.
+
+Optionally, you can add the following functionality at this point: if the player does not have one
+find the word destination, then the program only searches retrospectively (using backtracking) to see if
+there is a solution, and if so, it displays it on the screen. Note: If you add this extra
+functionality will need an extra field in the struct for your lists: In order for
+The words that have already been checked must be marked back so that they do not return to the path and
+create a "circle". A boolean variable is enough for this.
+
+
+In any case, the program asks the player if he wants to play again. If so, choose two new words and
+repeats the game (with the same or different word length / number of steps, depending on preference
+you), otherwise terminates.
