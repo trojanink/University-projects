@@ -1,0 +1,41 @@
+% H synarthsh newton ylopoiei th me8odo tou Newton gia thn 
+% eyresh ths rizas ths synarthshs f(x) = ekfrash me arxikh timh to x0.
+% yota@uth.gr, March 2018, R2017a
+
+
+function [xstar, iter] = newton(ekfrash, x0, tol, maxiter)
+
+f = inline(ekfrash);          %% h ekfrash metatrepetai se synarthsh
+df = inline(diff(ekfrash));   %% ypologismos ths paragwgoy
+
+xold = x0;
+fxold = feval(...., ..........);  %% ypologismos ths f sto x0
+dfxold = feval(df, ....);   %% ypologismos tw df sto x0
+
+if ....................
+   fprintf('H paragwgos mhdenizetai sto %f kai h me8odos Newton den mporei na synexisei.\n',xold);
+   return;
+end
+
+xnew = ..................; %% efarmogh ths me8odou Newton
+fxnew = feval(f, xnew); %%ypologismos ths f sto xnew
+
+iter = 1;
+while (iter < maxiter) & (abs(xold-xnew) > tol)
+   xold = ..............  %% ananewsh timwn
+   fxold = ................  %% ananewsh timwn
+   dfxold = ............   %%ypologismos ths df sto xold
+   if abs(dfxold) > eps
+      xnew = ............    %% efarmogh ths me8odou Newton
+      fxnew = ..............  %%ypologismos ths f sto xnew
+   else
+      fprintf('H paragwgos mhdenizetai sto %f kai h me8odos Newton den mporei na synexisei.\n',xold);
+      xstar = xnew;
+      return;
+   end
+   iter = iter + 1 ;
+ end
+
+xstar = xnew;
+
+
