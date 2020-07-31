@@ -1,5 +1,4 @@
 %convergence_exercise.m
-%g. paschos
 clear all;
 
 %how many samples?
