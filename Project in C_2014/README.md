@@ -1,5 +1,5 @@
 
-#Semester project in C about game implementation program.
+# Semester project in C about game implementation program.
 
 In every folder there is a more detailed description of each project.(Greek langueage)
 
