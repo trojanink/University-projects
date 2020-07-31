@@ -8,5 +8,7 @@ Some of the projects I developed during my studies at University of Thessaly, El
   3.Computer Architecture, Principles and Design in Verilog
 
   4.Assembly Programming
+  
+  5.Digital Signal Processing
 
 
