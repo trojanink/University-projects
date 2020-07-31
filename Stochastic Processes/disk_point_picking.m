@@ -1,5 +1,4 @@
 %demonstrate disk point picking
-%G. Paschos
 clear all;
 
 %how many points?
