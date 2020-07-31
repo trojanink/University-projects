@@ -1,5 +1,4 @@
 %demonstrating rayleigh distribution 
-%G. Paschos
 clear all;
 
 
