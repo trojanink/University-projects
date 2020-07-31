@@ -1,0 +1,88 @@
+The most positive word is "spain" with a score of 4.000
+
+   0: [ "spain" 1 4.00 ]
+   1: [ "true" 1 4.00 ]
+   2: [ "all" 2 4.00 ]
+   5: [ "interesting" 1 0.00 ]
+   9: [ "costume" 1 4.00 ]
+  11: [ "'s" 3 7.00 ]
+  17: [ "first" 1 2.00 ], [ "worth" 3 8.00 ], [ "entertaining" 2 8.00 ], [ "," 9 20.00 ]
+  18: [ "finesse" 1 2.00 ]
+  19: [ "respectable" 1 2.00 ], [ "completely" 1 0.00 ], [ "." 8 17.00 ]
+  20: [ "devoid" 2 1.00 ]
+  21: [ "pure" 1 2.00 ], [ "-rrb-" 2 3.00 ]
+  22: [ "always" 1 4.00 ]
+  23: [ "streets" 1 0.00 ], [ "compelling" 1 4.00 ], [ "seeking" 1 4.00 ]
+  24: [ "humor" 1 1.00 ], [ "most" 1 3.00 ]
+  25: [ "as" 1 1.00 ]
+  26: [ "at" 2 5.00 ], [ "sexy" 1 4.00 ]
+  27: [ "few" 1 2.00 ]
+  29: [ "never" 1 0.00 ], [ "ash" 1 0.00 ], [ "quiet" 3 9.00 ], [ "this" 1 4.00 ]
+  30: [ "cheering" 1 1.00 ], [ "events" 1 4.00 ]
+  32: [ ";" 1 2.00 ]
+  33: [ "longest" 1 0.00 ], [ "some" 1 3.00 ], [ "his" 1 3.00 ]
+  34: [ "mean" 1 0.00 ], [ "peculiar" 1 4.00 ]
+  36: [ "plot" 2 0.00 ]
+  39: [ "potency" 1 2.00 ], [ "hearing" 1 3.00 ]
+  40: [ "before" 1 0.00 ], [ "'ll" 1 0.00 ]
+  41: [ "come" 1 0.00 ]
+  44: [ "mile" 1 0.00 ]
+  46: [ "you" 3 0.00 ]
+  48: [ "sparkling" 1 3.00 ], [ "based" 1 4.00 ]
+  52: [ "should" 1 1.00 ], [ "introspective" 1 4.00 ]
+  53: [ "unlike" 1 0.00 ], [ "director" 1 3.00 ]
+  54: [ "the" 5 13.00 ]
+  55: [ "swear" 1 0.00 ], [ "..." 1 0.00 ], [ "effort" 1 3.00 ]
+  57: [ "still" 1 3.00 ]
+  58: [ "essentially" 1 0.00 ]
+  59: [ "been" 1 1.00 ], [ "somehow" 1 4.00 ]
+  60: [ "and" 5 15.00 ]
+  62: [ "latest" 1 3.00 ]
+  63: [ "between" 1 2.00 ], [ "'ve" 2 0.00 ], [ "disquieting" 1 3.00 ]
+  64: [ "scorsese" 1 0.00 ]
+  65: [ "ride" 1 2.00 ]
+  66: [ "not" 1 3.00 ], [ "that" 2 4.00 ]
+  69: [ "wit" 1 1.00 ]
+  70: [ "a" 7 10.00 ]
+  71: [ "dilutes" 1 2.00 ], [ "independent" 1 4.00 ]
+  73: [ "yard" 1 0.00 ], [ "characters" 1 0.00 ], [ "renaissance" 1 4.00 ]
+  74: [ "thunderous" 1 2.00 ], [ "of" 6 8.00 ]
+  76: [ "if" 2 3.00 ], [ "more" 1 4.00 ]
+  77: [ "intriguing" 1 0.00 ], [ "wednesday" 1 0.00 ], [ "have" 1 1.00 ]
+  78: [ "triumph" 1 3.00 ], [ "drama" 1 4.00 ]
+  79: [ "breakthrough" 1 1.00 ], [ "jaglom" 1 3.00 ]
+  81: [ "with" 1 0.00 ], [ "set" 1 4.00 ]
+  82: [ "makes" 1 4.00 ], [ "on" 1 4.00 ]
+  83: [ "otherwise" 1 2.00 ], [ "even" 2 0.00 ]
+  84: [ "within" 1 0.00 ], [ "in" 1 4.00 ]
+  85: [ "their" 1 2.00 ], [ "its" 1 3.00 ]
+  86: [ "or" 1 0.00 ]
+  87: [ "cadences" 1 2.00 ]
+  88: [ "seen" 1 0.00 ], [ "predictable" 1 0.00 ]
+  89: [ "halfway" 1 0.00 ], [ "is" 5 11.00 ]
+  90: [ "far" 1 2.00 ], [ "it" 3 8.00 ]
+  91: [ "fact" 1 4.00 ]
+  93: [ "are" 1 2.00 ]
+  94: [ "shortage" 1 2.00 ]
+  96: [ "but" 1 1.00 ]
+  97: [ "repartee" 1 3.00 ]
+  99: [ "action" 1 2.00 ], [ "-lrb-" 2 3.00 ]
+
+
+Enter review or DONE to finish:
+Review score: 1.7524
+This review is negative.
+
+Enter review or DONE to finish:
+Review score: 2.3889
+This review is positive.
+
+Enter review or DONE to finish:
+Review score: 3.0000
+This review is positive.
+
+Enter review or DONE to finish:
+Review score: 2.0000
+This review is neutral.
+
+Enter review or DONE to finish:

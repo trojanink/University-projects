@@ -1,0 +1,29 @@
+The most positive word is "excellent" with a score of 3.000
+
+   6: [ "complete" 1 0.00 ]
+   8: [ "decent" 2 5.00 ]
+  14: [ "timewaster" 2 3.00 ]
+  20: [ "bad" 1 1.00 ]
+  97: [ "excellent" 1 3.00 ], [ "movie" 3 6.00 ]
+
+
+Enter review or DONE to finish:
+Review score: 2.2500
+This review is positive.
+
+Enter review or DONE to finish:
+Review score: 2.0000
+This review is neutral.
+
+Enter review or DONE to finish:
+Review score: 3.0000
+This review is positive.
+
+Enter review or DONE to finish:
+Review score: 1.0000
+This review is negative.
+
+Enter review or DONE to finish:
+Sorry, there is no score for this review!
+
+Enter review or DONE to finish:
