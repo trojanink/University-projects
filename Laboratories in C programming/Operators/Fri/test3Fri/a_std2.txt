@@ -1,0 +1,3 @@
+Coefficients:
+Quadratic: Linear: Constant: 
+root1 = 1.0000, root2 = 0.5882

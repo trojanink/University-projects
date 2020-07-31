@@ -1,0 +1,4 @@
+Ticket price: How many: 
+Tickets: 9 @ 35.50
+Discount: 47.92
+Final price: 271.57

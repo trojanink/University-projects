@@ -1,0 +1,4 @@
+Base price: +/-: 
+Base price: 12.34
+Mod amount: -1.23
+Final price: 11.11
