@@ -1,11 +1,6 @@
-Σταθμός Διοδίων (Homework 2)
 
-Πρόγραμμα το οποίο χρησιμοποιείται από ένα πλήρως αυτοματοποιημένο σταθμό διοδίων
-για να συλλέξει στοιχεία για τα οχήματα που περνούν από το σταθμό. Το πρόγραμμα ανιχνεύει κι
-αποθηκεύει τον τύπο κάθε οχήματος που περνά, την πινακίδα και το ποσό που χρωστάει ο οδηγός (κάποιοι
-οδηγοί περνούν τα διόδια χωρίς να πληρώνουν όλο το ποσό που οφείλουν). Αφού έχει συλλέξει όλες τις
-πληροφορίες, εντοπίζει οχήματα που πέρασαν πολλαπλές φορές ώστε να κρατά μόνο μία καταχώρηση ανά
-όχημα και τέλος υπολογίζει κι εκτυπώνει στατιστικά στοιχεία για τις οφειλές των οχημάτων.
+# Toll Station (Homework 2)
 
-Ακολουθούν λεπτομερείς οδηγίες για το πώς πρέπει να λειτουργεί το πρόγραμμά σας και τι συναρτήσεις
-πρέπει να περιέχει.
+A program used by a fully automated toll station to collect data on vehicles passing through the station. The program detects and stores the type of each passing vehicle, the license plate and the amount owed by the driver (some drivers pass the tolls without paying the full amount owed). After collecting all the information, it locates vehicles that have passed multiple times to keep only one entry per vehicle and finally calculates and prints statistics on vehicle debts.
+
+Here are detailed instructions on how your program should work and what functions it should contain.
