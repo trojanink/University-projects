@@ -17,6 +17,7 @@ You will implement a movie review application. Your application will study a col
 The data provided in a text file. Each line of the file contains the rating of a
 review and after the text of this review. We will give you a ready-made function which in each
 her call returns the next line of the file.
+
 Your program should extract the words of each review and store them in a structure
 data that we will describe to you along with a score that results from its rating
 criticism.
