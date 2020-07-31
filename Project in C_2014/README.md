@@ -4,10 +4,9 @@ Sept 2014 - Jan 2015
 
 Use Data Structures, Lists, Memory(Malloc-Realloc), Structs, Recursion.
 
-In every folder there is a more detailed description of each project.(Greek langueage)
+In every folder there is a more detailed description of each project in Greek langueage.
 
 Abstract
-
 
 Implementation of a game where the computer chooses two words (of the same length) from the dictionary, and the player
 tries to find a path from one to the other so that at each step exactly one letter changes,
@@ -31,7 +30,6 @@ there is a solution, and if so, it displays it on the screen. Note: If you add t
 functionality will need an extra field in the struct for your lists: In order for
 The words that have already been checked must be marked back so that they do not return to the path and
 create a "circle". A boolean variable is enough for this.
-
 
 In any case, the program asks the player if he wants to play again. If so, choose two new words and
 repeats the game (with the same or different word length / number of steps, depending on preference
