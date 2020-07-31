@@ -1,6 +1,5 @@
-Σταθμός Διοδίων(Homework 1)
+Toll Station (Homework 1)
 
-Πρόγραμμα, το οποίο χρησιμοποιείται από ένα πλήρως αυτοματοποιημένο σταθμό διοδίων για να διαχειριστεί τις πληρωμές. Το πρόγραμμα ανιχνεύει τον τύπο κάθε οχήματος που περνά, αποφασίζει
-το αντίτιμο, δέχεται το ποσό, υπολογίζει αν είναι αρκετό και αν χρειάζονται ρέστα, υπολογίζει και δίνει στον οδηγό τα ρέστα και στο τέλος της ημέρας καταγράφει στατιστικά στοιχεία για τη λειτουργία του σταθμού.
+Program, which is used by a fully automated toll station to manage payments. The program detects the type of each passing vehicle, decides the price, accepts the amount, calculates if it is enough and if they need change, calculates and gives the driver the change and at the end of the day records statistics for the operation of the station.
 
-Περισσότερες λεπτομέρειες καθώς και την αρχική εκφώνηση της εργασίας θα τη βρείτε στο παρών pdf.
+More details as well as the original pronunciation of the work can be found in this pdf.
