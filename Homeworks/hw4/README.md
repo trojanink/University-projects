@@ -1,4 +1,3 @@
-Πρόγραμμα , το οποίο διαβάζει από ένα αρχείο πληροφορίες (τίτλο και τιμή) για ένα άγνωστο
-αριθμό βιβλίων, τις αποθηκεύει σε μια διασυνδεδεμένη δομή η οποία διευκολύνει την ταξινόμησή τους, και
-τέλος εκτυπώνει σε δύο διαφορετικά αρχεία τις πληροφορίες ταξινομημένες με βάση τον τίτλο και με βάση
-την τιμή αντίστοιχα.
+# Homework 4
+
+A program that reads information (title and price) from an archive for an unknown number of books, stores them in an interconnected structure that facilitates their classification, and finally prints the information, sorted by title and by, into two different files. the price respectively.
