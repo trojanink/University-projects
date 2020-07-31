@@ -1,13 +1,10 @@
-Σταθμός διοδίων(Homework 3)
+# Toll station (Homework 3)
 
-Στο δεύτερο σετ ασκήσεων χρειάστηκε να αποθηκεύετε για κάθε αυτοκίνητο τον τύπο, την πινακίδα και το
-ποσό που χρωστάει. Επειδή αυτές οι ποσότητες είναι διαφορετικού τύπου (χαρακτήρας, συμβολοσειρά και
-αριθμός κινητής υποδιαστολής), αναγκαστήκατε πρώτα να ενώσετε κάθε τύπο με την αντίστοιχη πινακίδα σε
-μία συμβολοσειρά και μετά να χρησιμοποιήσετε δύο "παράλληλους" πίνακες, πράγμα που κάνει τον κώδικα
-πιο μπερδεμένο και αυξάνει την πιθανότητα λάθους (πχ να γίνει κάποια αλλαγή στον ένα πίνακα και να μη
-γίνει αντίστοιχη αλλαγή στον άλλο).
-Όταν θέλουμε να αποθηκεύσουμε δεδομένα διαφορετικών τύπων που όμως αναφέρονται στην ίδια οντότητα
-(πχ σε ένα όχημα), ο πιο σωστός τρόπος είναι να ομαδοποιήσουμε αυτούς τους τύπους σε ένα struct.
-Για το τρίτο σετ ασκήσεων, θα επαναλάβετε το δεύτερο, αλλά αυτή τη φορά αντί για δύο πίνακες δεδομένων
-(έναν από συμβολοσειρές κι έναν από αριθμούς), θα έχετε έναν πίνακα από struct.
-Επιπλέον, θα υλοποιήσετε δύο ακόμη αλγορίθμους ταξινόμησης, θα τρέξετε το πρόγραμμά
+In the second set of exercises you had to save for each car the type, license plate and the amount owed. Because these quantities are of a different type (character, string, and floating point number), you first have to combine each type with the corresponding tag in a string and then use two "parallel" arrays, which confuses the code and increases the probability of error (eg to make a change in one table and not to make a corresponding change in the other.
+
+When we want to store data of different types that refer to the same entity
+(eg on a vehicle), the best way is to group these types into a struct.
+For the third set of exercises, you will repeat the second, but this time instead of two tables of data
+(one of strings and one of numbers), you will have a table of struct.
+
+In addition, you will implement two more classification algorithms, you will run the program
