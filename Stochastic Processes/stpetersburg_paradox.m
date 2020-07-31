@@ -1,5 +1,4 @@
 %demonstration of st. petersburg paradox
-%g. paschos
 clear all;
 
 %how many games?
