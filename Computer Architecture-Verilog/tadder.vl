@@ -1,0 +1,25 @@
+module adder_tbench;
+reg [7:0] x, y;
+reg carryin;
+wire [8:0] sum;
+wire [7:1] c;
+
+// Instantiate 8 1-bit full adders
+fulladd stage0 (carryin, x[0], y[0], sum[0], c[1]);
+fulladd stage1 (c[1], x[1], y[1], sum[1], c[2]);
+fulladd stage2 (c[2], x[2], y[2], sum[2], c[3]);
+fulladd stage3 (c[3], x[3], y[3], sum[3], c[4]);
+fulladd stage4 (c[4], x[0], y[0], sum[4], c[5]);
+fulladd stage5 (c[5], x[1], y[1], sum[5], c[6]);
+fulladd stage6 (c[6], x[2], y[2], sum[6], c[7]);
+fulladd stage7 (c[7], x[3], y[3], sum[7], sum[8]);
+
+initial 
+    begin
+         carryin = 1'b0;
+         x = 8'h01; y = 8'h22; 
+         #10 x = 8'hAA; y = 8'hBB;
+         #10 x = 8'h34; y = 8'h33;
+         #10 x = 8'hE3; y = 8'h88;
+    end
+endmodule 

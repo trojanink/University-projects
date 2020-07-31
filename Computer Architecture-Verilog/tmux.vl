@@ -1,0 +1,17 @@
+module mux_tbench;
+reg [7:0] a, b;
+wire [7:0] out;
+reg sel;
+
+mux m(out, a, b, sel);
+
+initial 
+    begin
+        $monitor($time,, "a = %x, b=%x, sel=%x, y=%x",
+                   a, b, sel, out);
+         a = 8'hAA; b = 8'hBB; sel = 0;
+         #10 a = 8'hA0;
+         #10 sel = 1;
+         #10 b = 8'hB0;
+    end
+endmodule 

@@ -1,0 +1,27 @@
+// A few new items appear here (e.g. forever)
+//   
+`define period 10
+module test_counter;
+
+reg clk, reset;
+wire [7:0] count;
+
+counter dut (count, clk, reset);
+
+initial // Clock generator
+  begin
+    clk = 0;
+    forever #(`period/2) clk = !clk;
+  end
+  
+initial	// Test stimulus
+  begin
+    reset = 0;
+    #5 reset = 1;
+    #4 reset = 0;
+  end
+  
+initial
+    $monitor($stime,, reset,, clk,,, count); 
+    
+endmodule    

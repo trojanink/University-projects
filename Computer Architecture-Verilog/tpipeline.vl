@@ -1,0 +1,37 @@
+`timescale 1ns/1ps
+`define cycle 10
+
+module pipeline_tbench;
+reg [7:0] in;
+wire [7:0] out;
+reg clk, reset;
+
+// Instantiate functional unit
+pipeline pip(out, in, clk, reset);
+
+always
+  begin
+    clk = 0;
+    #(`cycle/2); 
+    clk = 1;
+    #(`cycle/2); 
+  end
+
+initial 
+    begin     
+     reset = 0;
+     #(`cycle);
+     reset = 1;
+     in = 8'hAA;
+     #(`cycle*2);
+     in = 8'hBB;
+     #(`cycle*2);
+     in = 8'hCC;
+     #(`cycle*2);
+     in = 8'hDD;
+     #(`cycle*2);
+     in = 8'hEE;
+     #(`cycle*2);   
+     in = 8'hFF;
+    end
+endmodule 

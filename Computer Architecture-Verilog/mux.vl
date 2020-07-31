@@ -1,0 +1,5 @@
+module mux(output [7:0] out, input [7:0] a, input [7:0] b, input sel); 
+ begin
+    assign out = (sel == 0) ? a : b;
+ end
+endmodule
