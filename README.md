@@ -1,12 +1,12 @@
 # University projects
 Some of the projects I developed during my studies at University of Thessaly, Electrical & Computer Engineering Dpt.
 
-Programming in C
+  1.Programming in C
 
-Numerical Analysis & Matlab Programming techniques
+  2.Numerical Analysis & Matlab Programming techniques
 
-Computer Architecture, Principles and Design in Verilog
+  3.Computer Architecture, Principles and Design in Verilog
 
-Assembly Programming
+  4.Assembly Programming
 
 
