@@ -8,28 +8,17 @@ Implementation of a film review application.
 Study of an existing collection of reviews and evaluation of new ones based on collection data.
 Use Data Structures, Lists, Memory(Malloc-Realloc), Structs, Recursion.
 
-In every folder there is a more detailed description of each project.(Greek langueage)
+In every folder there is a more detailed description of each project in Greek langueage.
 
+You will implement a movie review application. Your application will study a collection of reviews that have already been evaluated and based on the data it will collect will be able to evaluate new reviews entered from the keyboard. The data your application will use is a collection of several thousand movie reviews each of which has already been rated 0-4 with the mean: 0 - negative 1 - somewhat negative 2 - neutral 3 - somewhat positive 4 - positive.
+The data provided in a text file. Each line of the file contains the rating of a
+review and after the text of this review. We will give you a ready-made function which in each
+her call returns the next line of the file.
+Your program should extract the words of each review and store them in a structure
+data that we will describe to you along with a score that results from its rating
+criticism.
 
-Περιγραφή
-
-Θα υλοποιήσετε μια εφαρμογή αξιολόγησης κριτικών για ταινίες. Η εφαρμογή σας θα μελετήσει μια συλλογή
-κριτικών οι οποίες έχουν ήδη αξιολογηθεί και με βάση τα στοιχεία που θα συλλέξει θα μπορεί να αξιολογήσει
-νέες κριτικές που εισάγονται από το πληκτρολόγιο.
-Τα δεδομένα που θα χρησιμοποιήσει η εφαρμογή σας είναι μια συλλογή από μερικές χιλιάδες κριτικές ταινιών
-κάθε μία εκ των οποίων έχει ήδη αξιολογηθεί με έναν ακέραιο 0-4 με σημασία:
-0 - αρνητική
-1 - κάπως αρνητική
-2 - ουδέτερη
-3 - κάπως θετική
-4 - θετική
-Τα δεδομένα παρέχονται σε αρχείο κειμένου. Κάθε γραμμή του αρχείου περιέχει το βαθμό αξιολόγησης μιας
-κριτικής και μετά το κείμενο αυτής της κριτικής. Θα σας δώσουμε μια έτοιμη συνάρτηση η οποία σε κάθε
-κλήση της επιστρέφει την επόμενη γραμμή του αρχείου.
-Το πρόγραμμά σας θα πρέπει να αποσπά τις λέξεις κάθε κριτικής και να τις αποθηκεύει σε μια δομή
-δεδομένων που θα σας περιγράψουμε μαζί με ένα σκορ που προκύπτει από το βαθμό αξιολόγησης της
-κριτικής.
-Αφού συλλεχθούν όλα τα δεδομένα, το πρόγραμμα ζητά από το χρήστη να εισάγει μια νέα, μη-αξιολογημένη
-κριτική και με βάση τα σκορ που έχει ήδη υπολογίσει να την αξιολογεί με βάση την παραπάνω κλίμακα.
-Επιπλέον, το πρόγραμμα πρέπει να υπολογίζει αναδρομικά τη λέξη που έχει το καλύτερο σκορ από όλες όσες
-έχουν ήδη εισαχθεί στη δομή δεδομένων.
+After all the data has been collected, the program asks the user to enter a new, non-rated
+critique and based on the scores he has already calculated to evaluate it based on the above scale.
+In addition, the program must count retrospectively the word that has the best score of all
+have already been entered into the data structure.
