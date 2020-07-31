@@ -1,0 +1,8 @@
+
+getWord.c     : sunartisi getWord gia tin prosbasi sto arxeio-leksiko
+
+tinydict.txt  : ena polu mikro leksiko gia to arxiko debugging
+
+smalldict.txt : ena ligo megalutero leksiko 
+
+largedict.txt : terastio leksiko, gia pliri empeiria paixnidiou
