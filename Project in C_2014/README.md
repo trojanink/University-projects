@@ -1,6 +1,8 @@
 
 # Programming in C - Implementation of a game.
+Sept 2014 - Jan 2015
 
+Use Data Structures, Lists, Memory(Malloc-Realloc), Structs, Recursion.
 In every folder there is a more detailed description of each project.(Greek langueage)
 
 Περιγραφή
