@@ -7,4 +7,4 @@ When we want to store data of different types that refer to the same entity
 For the third set of exercises, you will repeat the second, but this time instead of two tables of data
 (one of strings and one of numbers), you will have a table of struct.
 
-In addition, you will implement two more classification algorithms, you will run the program
+In addition, you will implement two more classification algorithms.
