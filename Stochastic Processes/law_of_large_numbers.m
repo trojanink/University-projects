@@ -1,5 +1,4 @@
 %demonstration of the law of large numbers
-%g. paschos
 clear all;
 
 %how many samples?
