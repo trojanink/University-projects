@@ -10,7 +10,6 @@ Some of the projects I developed during my studies at University of Thessaly, El
   4.Assembly Programming
   
   5.Digital Signal Processing
- 
-  6.Stochastic Processes
+
 
 
